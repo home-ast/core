@@ -271,6 +271,7 @@ async def test_send_command(hass: HomeAssistant, config_flow_fixture: None) -> N
 
     assert "test" in strings
 
+
 async def test_supported_features_compat(hass: HomeAssistant) -> None:
     """Test StateVacuumEntity using deprecated feature constants features."""
 
