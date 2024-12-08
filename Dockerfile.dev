@@ -44,7 +44,7 @@ RUN pip3 install uv
 WORKDIR /usr/src
 
 # Setup hass-release
-RUN git clone --depth 1 https://github.com/home-assistant/hass-release \
+RUN git clone --depth 1 https://github.com/home-ast/hass-release \
     && uv pip install --system -e hass-release/ \
     && chown -R vscode /usr/src/hass-release/data
 
